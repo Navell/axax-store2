@@ -1,9 +1,7 @@
 <script setup lang="ts">
-import { defineComponent } from 'vue';
+  import HeaderItem from './components/HeaderItem/HeaderItem.vue'
+  import MainPage from './MainPage/MainPage.vue'
 
-export default defineComponent({
-  name: 'HeaderItem',
-});
 </script>
 
 <template>
