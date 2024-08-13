@@ -1,3 +1,0 @@
-File 'c:/Users/Frontend/Desktop/axas-store/src/components/HeaderItem/HeaderItem.vue' is not a module.ts-plugin(2306)
-
-File 'c:/Users/Frontend/Desktop/axas-store/src/components/HeaderItem/HeaderItem.vue' is not a module.ts-plugin(2306)
