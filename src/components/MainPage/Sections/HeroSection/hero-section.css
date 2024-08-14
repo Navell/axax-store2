@@ -1,0 +1,60 @@
+.hero {
+    position: relative;
+    display: grid;
+    height: 50vh;
+}
+
+.hero--wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start  ;
+    width: 50vw;
+    aspect-ratio: 16 / 13;
+}
+
+.hero--title {
+    display: grid;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: "Arial-bold", sans-serif;
+    text-align: start;
+    color: #329CCA;
+}
+
+.hero--span {
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.hero--button {
+    font-size: 24px;
+    font-family: "Arial-light", sans-serif;
+    color: white;
+    padding: 22px 116px;
+    background: #329CCA;
+    border-radius: 76px;
+    margin-top: 88px;
+    text-transform: uppercase;
+    transition: .2s;
+    &:hover {
+        background-color: rgb(255, 255, 255);
+        color: #329CCA;
+        box-shadow: 0 0 10px 15px rgba(0, 0, 0, 0.068);
+    }
+}
+
+.hero--phone {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40vw;;
+    z-index: 1;
+}
+
+.hero--bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50vw;
+}

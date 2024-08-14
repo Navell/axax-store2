@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "Circe";
+    src: url("./BonaNova-Regular.woff2") ;
+    font-weight: 400;
+  }
+  
+  @font-face {
+    font-family: "Circe";
+    src: url("./BonaNova-Italic.woff2") ;
+  }
+
+  @font-face {
+    font-family: "Circe";
+    src: url("./BonaNova-Bold.woff2") ;
+    font-weight: 700;
+  }

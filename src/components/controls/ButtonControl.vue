@@ -1,4 +1,4 @@
-<script lang='ts'>
+<script setup lang='ts'>
     type Props = {
         text: string
     }
@@ -7,13 +7,8 @@
 </script>
 
 <template>
-    <button class="button"> 111 {{ text }}</button>
-    
+    <button class="button"> {{ text }}</button>
 </template>
 
-    <style scoped>
-    .button {
-        background-color: red;
-    }
-    </style>
+
     

@@ -5,13 +5,20 @@
 body {
   background-color: #f8f8f8;
   position: relative;
-  padding: 0;
-  margin: 0;
-
+  background-image: url("../assets/images/pattern-bg-light2.webp");
+  background-size: 300px;
+  background-repeat: repeat;
 }
 
 .container {
   padding: 0 calc((100vw - var(--container)) / 2);
 }
 
+* {
+  border-radius: 5px;
+  &:focus-visible {
+    outline: 3px solid #329CCA;
+    outline-offset: 4px;
+  }
+}
 
